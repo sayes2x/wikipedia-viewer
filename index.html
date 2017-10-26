@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="position" class="center">
+  <p><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a random article</a></p>
+  <div id="search" class="searchClose">
+    <div id="close" class="hideClose"><i class="material-icons">power_settings_new</i></div>
+    <div id="handle" class="showHandle"></div>
+    <form onSubmit="return false;">
+      <input id="input" class="hideInput" type="text" autocomplete="off">
+    </form>
+  </div>
+  <p id="instruction" class="showInstruction">Click icon to search</p>
+</div>
+  <div id="results" class="hideResults"></div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
